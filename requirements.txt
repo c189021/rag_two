@@ -62,11 +62,11 @@ docstring-parser==0.18.0
 docutils==0.23
     # via readme-renderer
 dotenv==0.9.9
-    # via ex0928
+    # via rag_two
 executing==2.2.1
     # via stack-data
 faiss-cpu==1.15.1
-    # via ex0928
+    # via rag_two
 feedparser==6.0.14
     # via langchain-teddynote
 feedparser-sgmllib==2.1.0
@@ -151,12 +151,12 @@ konlpy==0.6.0
     # via langchain-teddynote
 langchain==1.4.2
     # via
-    #   ex0928
+    #   rag_two
     #   langchain-teddynote
 langchain-classic==1.0.8
     # via langchain-community
 langchain-community==0.4.2
-    # via ex0928
+    # via rag_two
 langchain-core==1.6.5
     # via
     #   langchain
@@ -170,14 +170,14 @@ langchain-core==1.6.5
     #   langgraph-sdk
 langchain-openai==1.6.6
     # via
-    #   ex0928
+    #   rag_two
     #   langchain-teddynote
 langchain-protocol==0.0.19
     # via
     #   langchain-core
     #   langgraph-sdk
 langchain-teddynote==0.5.4
-    # via ex0928
+    # via rag_two
 langchain-text-splitters==1.1.2
     # via langchain-classic
 langgraph==1.2.12
@@ -307,7 +307,7 @@ pygments==2.21.0
     #   readme-renderer
     #   rich
 pypdf==6.19.0
-    # via ex0928
+    # via rag_two
 python-dateutil==2.9.0.post0
     # via
     #   jupyter-client
@@ -316,7 +316,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.2.3
     # via
     #   dotenv
-    #   ex0928
+    #   rag_two
     #   langchain-teddynote
     #   pinecone-text
     #   pydantic-settings

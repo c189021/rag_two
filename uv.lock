@@ -586,7 +586,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ex0928"
+name = "rag_two"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

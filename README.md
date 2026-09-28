@@ -31,7 +31,7 @@ PDF → Loader → TextSplitter → Embedding → VectorStore(FAISS)
 │   └── faiss_index/              # 저장된 FAISS 인덱스 (재실행 시 임베딩 비용 절감)
 ├── rag_01_0928.ipynb             # 1차 실습: 기본 RAG 체인 (chunk 500 / overlap 50)
 ├── rag_02_0928.ipynb             # 2차 실습: 개선 버전 (출처 표기, 프롬프트 강화, 인덱스 캐싱)
-├── src/ex0928/                   # 패키지
+├── src/rag_two/                   # 패키지
 ├── pyproject.toml                # uv 프로젝트 설정
 ├── requirements.txt              # 전체 의존성 (uv export)
 └── requirements_rag_02.txt       # rag_02 실행용 최소 의존성
