@@ -1,0 +1,262 @@
+# rag_02_0928.ipynb 실행용. 직접 의존성: langchain-community, langchain-core, langchain-openai,
+# langchain-text-splitters, faiss-cpu, pypdf, python-dotenv, ipykernel (하위 의존성 포함, uv pip compile 결과)
+aiohappyeyeballs==2.7.1
+    # via aiohttp
+aiohttp==3.14.3
+    # via langchain-community
+aiosignal==1.4.0
+    # via aiohttp
+annotated-types==0.8.0
+    # via pydantic
+anyio==4.15.1
+    # via
+    #   httpx
+    #   httpx2
+    #   langsmith
+    #   openai
+asttokens==3.0.2
+    # via stack-data
+attrs==26.1.0
+    # via aiohttp
+certifi==2026.7.22
+    # via
+    #   httpcore
+    #   httpx
+    #   langchain-openai
+    #   requests
+charset-normalizer==3.5.1
+    # via requests
+colorama==0.4.6
+    # via ipython
+comm==0.2.3
+    # via ipykernel
+debugpy==1.8.22
+    # via ipykernel
+distro==1.9.0
+    # via langsmith
+executing==2.2.1
+    # via stack-data
+faiss-cpu==1.15.1
+    # via -r requirements_rag_02.txt
+frozenlist==1.8.0
+    # via
+    #   aiohttp
+    #   aiosignal
+h11==0.16.0
+    # via
+    #   httpcore
+    #   httpcore2
+httpcore==1.0.9
+    # via httpx
+httpcore2==2.13.1
+    # via httpx2
+httpx==0.28.1
+    # via langchain-core
+httpx-sse==0.4.3
+    # via langchain-community
+httpx2==2.13.1
+    # via
+    #   langsmith
+    #   openai
+idna==3.20
+    # via
+    #   anyio
+    #   httpx
+    #   httpx2
+    #   requests
+    #   yarl
+ipykernel==7.3.0
+    # via -r requirements_rag_02.txt
+ipython==9.17.1
+    # via ipykernel
+ipython-pygments-lexers==1.1.1
+    # via ipython
+jedi==0.20.0
+    # via ipython
+jiter==0.17.0
+    # via openai
+jsonpatch==1.33
+    # via langchain-core
+jsonpointer==3.1.1
+    # via jsonpatch
+jupyter-client==8.10.0
+    # via ipykernel
+jupyter-core==5.9.1
+    # via
+    #   ipykernel
+    #   jupyter-client
+langchain-classic==1.0.8
+    # via langchain-community
+langchain-community==0.4.2
+    # via -r requirements_rag_02.txt
+langchain-core==1.6.5
+    # via
+    #   -r requirements_rag_02.txt
+    #   langchain-classic
+    #   langchain-community
+    #   langchain-openai
+    #   langchain-text-splitters
+langchain-openai==1.6.6
+    # via -r requirements_rag_02.txt
+langchain-protocol==0.0.19
+    # via langchain-core
+langchain-text-splitters==1.1.2
+    # via
+    #   -r requirements_rag_02.txt
+    #   langchain-classic
+langsmith==0.14.1
+    # via
+    #   langchain-classic
+    #   langchain-community
+    #   langchain-core
+matplotlib-inline==0.2.2
+    # via
+    #   ipykernel
+    #   ipython
+multidict==6.9.1
+    # via
+    #   aiohttp
+    #   yarl
+nest-asyncio2==1.7.3
+    # via ipykernel
+numpy==2.5.3
+    # via
+    #   faiss-cpu
+    #   langchain-community
+openai==3.19.2
+    # via langchain-openai
+orjson==3.12.0
+    # via langsmith
+packaging==26.3
+    # via
+    #   faiss-cpu
+    #   ipykernel
+    #   langchain-core
+    #   langsmith
+parso==0.8.7
+    # via jedi
+platformdirs==4.12.0
+    # via jupyter-core
+prompt-toolkit==3.0.53
+    # via ipython
+propcache==0.5.4
+    # via
+    #   aiohttp
+    #   yarl
+psutil==7.2.2
+    # via
+    #   ipykernel
+    #   ipython
+pure-eval==0.2.4
+    # via stack-data
+pydantic==2.13.5
+    # via
+    #   langchain-classic
+    #   langchain-core
+    #   langsmith
+    #   openai
+    #   pydantic-settings
+pydantic-core==2.46.5
+    # via pydantic
+pydantic-settings==2.15.0
+    # via langchain-community
+pygments==2.21.0
+    # via
+    #   ipython
+    #   ipython-pygments-lexers
+pypdf==6.19.0
+    # via -r requirements_rag_02.txt
+python-dateutil==2.9.0.post0
+    # via jupyter-client
+python-dotenv==1.2.3
+    # via
+    #   -r requirements_rag_02.txt
+    #   pydantic-settings
+pyyaml==6.0.3
+    # via
+    #   langchain-classic
+    #   langchain-community
+    #   langchain-core
+pyzmq==27.2.0
+    # via
+    #   ipykernel
+    #   jupyter-client
+regex==2026.9.10
+    # via tiktoken
+requests==2.34.2
+    # via
+    #   langchain-classic
+    #   langchain-community
+    #   langsmith
+    #   requests-toolbelt
+    #   tiktoken
+requests-toolbelt==1.0.0
+    # via langsmith
+six==1.17.0
+    # via python-dateutil
+sniffio==1.3.1
+    # via
+    #   langsmith
+    #   openai
+sqlalchemy==2.1.1
+    # via
+    #   langchain-classic
+    #   langchain-community
+stack-data==0.6.3
+    # via ipython
+tenacity==9.1.4
+    # via
+    #   langchain-community
+    #   langchain-core
+tiktoken==0.14.0
+    # via langchain-openai
+tornado==6.5.10
+    # via
+    #   ipykernel
+    #   jupyter-client
+traitlets==5.16.1
+    # via
+    #   ipykernel
+    #   ipython
+    #   jupyter-client
+    #   jupyter-core
+    #   matplotlib-inline
+truststore==0.10.4
+    # via
+    #   httpcore2
+    #   httpx2
+typing-extensions==4.16.0
+    # via
+    #   aiohttp
+    #   aiosignal
+    #   anyio
+    #   httpx2
+    #   jupyter-client
+    #   langchain-core
+    #   langchain-protocol
+    #   langsmith
+    #   openai
+    #   pydantic
+    #   pydantic-core
+    #   sqlalchemy
+    #   typing-inspection
+typing-inspection==0.4.4
+    # via
+    #   pydantic
+    #   pydantic-settings
+urllib3==2.8.0
+    # via requests
+uuid-utils==0.17.1
+    # via
+    #   langchain-core
+    #   langsmith
+wcwidth==0.9.1
+    # via prompt-toolkit
+websockets==17.1
+    # via langsmith
+xxhash==4.0.1
+    # via langsmith
+yarl==1.25.1
+    # via aiohttp
+zstandard==0.25.0
+    # via langsmith
